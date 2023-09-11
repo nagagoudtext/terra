@@ -1,8 +1,4 @@
-variable "cidr_block" {
-type = string
-}
-variable "vpc_name" {
-description = "this name tag for vpc."
+variable "bucket_name" {
 type = string
 }
 

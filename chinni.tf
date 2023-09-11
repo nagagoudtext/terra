@@ -1,6 +1,4 @@
-resource "aws_vpc" "three" {
-cidr_block = var.cidr_block
-tags = {
-Name = var.vpc_name
+resource "aws_s3_bucket" "two" {
+bucket = var.bucket_name
 }
 
