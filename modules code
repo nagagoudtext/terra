@@ -25,7 +25,7 @@ group_name = "mydevgroup"
 vim provider.tf
 
 provider "aws" {
-region = "ap-northeast-1"
+region = "us-east-1"
 }
 
 after execution the above files,we create below directories
